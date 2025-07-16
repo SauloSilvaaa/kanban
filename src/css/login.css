@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header {
+    width: 100%;
+    flex: 1;
+    background-color: #331436;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.login-page-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.login-page-title {
+    width: 1330px;
+    height: 36px;
+    font-weight: 400px;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+/* main */
+.login-main-page {
+    width: 100%;
+    flex: 1;
+    min-height: 364px;
+    padding: 60px 170px 60px 170px;
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 520px;
+    height: 96px;
+    gap: 24px;
+}
+
+.login-information-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #331436;
+}
+
+.login-page-description {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #331436;
+}
+
+.login-page-form {
+    width: 520px;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: left;
+    color: #331436;
+}
+
+.login-page-email {
+    width: 520px;
+    height: 80px;
+    gap: 80px;
+}
+
+.login-page-email,label {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/* erro com a borda, pois está tendo borda na label também */
+input {
+    width: 520px;
+    height: 36px;
+    gap: 4px;
+    border-radius: 6px;
+    border: 1px solid #0000001A;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #331436ef;
+}
+
+.login-form-button {
+    width: 240px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color:#331436;
+    color: #FFFFFF;
+}
+
+footer {
+    width: 100%;
+    flex: 1;
+    padding: 48px;
+    gap: 60px;
+    background-color: #331436;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media {
+    width: 136px;
+    height: 34.46px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media a {
+    width: 34px;
+    height: 34px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-terms {
+    width: 786px;
+    height: 100px;
+    gap: 60px;
+}
+
+.copyright-terms {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.copyright-link {
+    width: 392px;
+    height: 100px;
+    align-content: center;
+}
+
+.copyright-link p,a {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.copyright-terms p:last-child  { 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}

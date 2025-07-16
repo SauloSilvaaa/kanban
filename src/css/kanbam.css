@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* problema com a largura resolver*/
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #331436;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.login-page-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.login-page-title {
+    width: 758px;
+    height: 36px;
+    font-weight: 400px;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+/*erro com a largura consertar*/
+.hamburguer {
+    height: 36px;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.hamburguer li {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+label {
+    display: flex;
+    border: 1px solid #FFFFFF1A;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.hamburguer input {
+    background-color: #331436;
+    color: #FFFFFF 50%;
+}
+
+main {
+    width: Fill (1,440px)px;
+    min-height: 600px;
+    padding: 60px 170px 60px 170px;
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+    background-color: #0000001A;
+}
+
+.column {
+    width: 240px;
+    height: 626px;
+    min-width: 240px;
+    padding: 16px;
+    gap: 10px;
+    border-radius: 8px; 
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #331436;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-;
+    width: 200px;
+    height: 127px;
+    min-width: 200px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 8px ;
+    border: 1px solid #331436;
+    background-color: #F8F2FF;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deadline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.priority {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 15px;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+.priority.high{
+    background-color: #CB4F57;
+    color: #7A1745;
+    border: 1px solid #7A1745;
+}
+
+data {
+    background-color: #00000080;
+}
+
+.activity {
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 24px;
+    color: #331436;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+}
+
+.team:first-child {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.member p{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    align-content: center;
+    color: #FFFFFF;
+}
+
+.icaro-turner {
+    background-color: #801E8F;
+}
+
+.jailson-silva {
+    background-color: #2E4B83;
+}
+
+.natan-silva {
+    background-color: #D92B93;
+}
+
+.lucas-cardoso {
+    background-color: #1A712D;
+}
+
+.guilherme-macedo {
+    background-color: #AF4A00;
+}
+
+.priority.mid{
+    background-color: #EB9961;
+    color: #CB4F57;
+    border: 1px solid #CB4F57;
+}
+
+.priority.low{
+    background-color: #FCF4B6;
+    color: #EB9961;
+    border: 1px solid #EB9961;
+}
+
+footer {
+    width: 100%;
+    height: 220px;
+    padding: 60px;
+    gap: 60px;
+    background-color: #331436;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media {
+    width: 136px;
+    height: 34.46px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media a {
+    width: 34px;
+    height: 34px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-terms {
+    width: 786px;
+    height: 100px;
+    gap: 60px;
+}
+
+.copyright-terms {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.copyright-link {
+    width: 392px;
+    height: 100px;
+    align-content: center;
+}
+
+.copyright-link p,a {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.copyright-terms p:last-child  { 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}

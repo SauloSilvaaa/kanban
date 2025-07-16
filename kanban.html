@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban page</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/kanbam.css">
+</head>
+<body>
+    
+    <header>
+        
+        <nav>
+            <a href="index.html"><img class="login-page-logo" src="src/images/header/logo 1.png" alt="logo-site"></a>
+            
+            <a href="index.html"><p class="login-page-title">Project Manager</p></a>
+            
+            <ul class="hamburguer">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#settings">Settings</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <label for="search">
+                    <input type="text" id="search"  placeholder="Search in site">
+                    <img src="src/images/kabban/lupa.svg" alt="search icon">
+                </label>
+            </ul>
+        
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="column to-do">
+            <p class="title to-do">To Do</p>
+
+            <div class="card to-do">
+                <div class="deadline">
+                    <p class="priority high">High</p>
+                    <p class="data">Oct 16, 24</p>
+                </div>
+                <div class="activity">
+                    <p>Create app</p>
+                </div>
+                <div class="team to-do">
+                    <button class="remove"><img src="src/images/kabban/x-Icon.svg" alt=""></button>
+                    <div class="member project">
+                        <p class="icaro-turner">IT</p>
+                        <p class="jailson-silva">JS</p>
+                        <p class="natan-silva">NS</p>
+                        <p class="lucas-cardoso">LC</p>
+                        <p class="guilherme-macedo">GM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card to-do">
+                <div class="deadline">
+                    <p class="priority mid">Mid</p>
+                    <p class="data">Oct 09, 24</p>
+                </div>
+                <div class="activity">
+                    <p>Train for the project</p>
+                </div>
+                <div class="team">
+                    <button><img src="src/images/kabban/x-Icon.svg" alt=""></button>
+                    <div class="member project">
+                        <p class="natan-silva">NS</p>
+                        <p class="guilherme-macedo">GM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card to-do">
+                <div class="deadline">
+                    <p class="priority low">Low</p>
+                    <p class="data">Oct 06, 24</p>
+                </div>
+                <div class="activity">
+                    <p>Make popcorn</p>
+                </div>
+                <div class="team">
+                    <button><img src="src/images/kabban/x-Icon.svg" alt=""></button>
+                    <div class="member project">
+                        <p class="guilherme-macedo">GM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column progress">
+            <p class="title progress">In Progress</p>
+
+            <div class="card progress">
+                <div class="deadline">
+                    <p class="priority high">High</p>
+                    <p class="data">Oct 08, 24</p>
+                </div>
+                <div class="activity">
+                    <p>Debug error</p>
+                </div>
+                <div class="team to-do">
+                    <button class="remove"><img src="src/images/kabban/x-Icon.svg" alt=""></button>
+                    <div class="member project">
+                        <p class="icaro-turner">IT</p>
+                        <p class="jailson-silva">JS</p>
+                        <p class="natan-silva">NS</p>
+                        <p class="lucas-cardoso">LC</p>
+                        <p class="guilherme-macedo">GM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column done">
+            <p class="title done">Complete</p>
+
+            <div class="card done">
+                <div class="deadline">
+                    <p class="priority low">Low</p>
+                    <p class="data">Oct 02, 21</p>
+                </div>
+                <div class="activity">
+                    <p>Eat a sandwich</p>
+                </div>
+                <div class="team">
+                    <button><img src="src/images/kabban/x-Icon.svg" alt=""></button>
+                    <div class="member project">
+                        <p class="guilherme-macedo">GM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card done">
+                <div class="deadline">
+                    <p class="priority mid">Mid</p>
+                    <p class="data">Oct 28, 86</p>
+                </div>
+                <div class="activity">
+                    <p>Drink water</p>
+                </div>
+                <div class="team">
+                    <button><img src="src/images/kabban/x-Icon.svg" alt=""></button>
+                    <div class="member project">
+                        <p class="guilherme-macedo">GM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank"><img src="src/images/footer/facebook-icon.svg" alt="icone do facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="src/images/footer/instagram-icon.svg" alt="icone de instagram"></a>
+            <a href="https://www.linkedin.com" target="_blank"><img src="src/images/footer/linkedin-icon.svg" alt="icone de linkedin"></a>
+        </div>
+
+        <div class="copyright-terms">
+            
+            <div class="copyright-link">
+
+                <a href="#"><p>© 2024 Project Manager. All rights reserved.</p></a>
+            
+            </div>
+
+                <a><p>Privacy Policy</p></a>
+                <a><p>Terms of Service</p></a>
+
+        </div>
+
+    </footer>
+
+    <script src="js/kanban.js"></script>
+</body>
+</html>

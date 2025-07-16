@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/login.css">
+</head>
+<body>
+
+        <header>
+            <a href="index.html"><img class="login-page-logo" src="src/images/header/logo 1.png" alt="logo-site"></a>
+            <a href="index.html"><p class="login-page-title">Project Manager</p></a>
+        </header>
+
+    <main>
+        <div class="login-main-page">
+            <div class="login-page-container">
+                <p class="login-information-title">Login Information</p>
+                <p class="login-page-description">Enter your credentials</p>
+            </div>
+    
+            <div class="login-page-form">
+                <div class="login-page-email">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                    <p id="error-email"></p>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <br>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                    <p id="error-password"></p>
+                </div>
+                    <button type="submit" id="validation" class="login-form-button">Login</button></button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank"><img src="src/images/footer/facebook-icon.svg" alt="icone do facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="src/images/footer/instagram-icon.svg" alt="icone de instagram"></a>
+            <a href="https://www.linkedin.com" target="_blank"><img src="src/images/footer/linkedin-icon.svg" alt="icone de linkedin"></a>
+        </div>
+
+        <div class="copyright-terms">
+            
+            <div class="copyright-link">
+
+                <a href=""><p>© 2024 Project Manager. All rights reserved.</p></a>
+            
+            </div>
+
+                <a><p>Privacy Policy</p></a>
+                <a><p>Terms of Service</p></a>
+
+        </div>
+    </footer>
+    <script src="js/login.js"></script>
+</body>
+</html>
