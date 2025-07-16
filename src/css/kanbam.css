@@ -43,6 +43,10 @@ nav {
     color: #FFFFFF;
 }
 
+.hamburguer li:hover{
+    color: #FFFFFFCA;
+}
+
 label {
     display: flex;
     border: 1px solid #FFFFFF1A;
@@ -230,6 +234,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.social-media a:hover{
+    background-color: #FFFFFFCA;
 }
 
 .copyright-terms {

@@ -39,6 +39,11 @@ header {
     font-weight: 500;
 }
 
+.login-button:hover{
+    cursor: pointer;
+    background-color: #b95f65;
+}
+
 /*main*/
 
 /* section - 1 */
@@ -92,6 +97,11 @@ span {
     color: #FCF4B6;
 }
 
+.button-start:hover{
+    cursor: pointer;
+    background-color: #b95f65;
+}
+
 .photo-main-container {
     width: 540px;
     height: 436px;
@@ -138,6 +148,11 @@ span {
     border-radius: 8px;
     background-color: #331436;
     color: #FFFFFF;
+}
+
+.button-presentation:hover{
+    cursor: pointer;
+    background-color: #5b2d5f;
 }
 
 /* container - 2 */
@@ -202,6 +217,11 @@ span {
     gap: 12px;
     background-color: #331436;
     color: #FFFFFF;
+}
+
+.feature-button:hover{
+    cursor: pointer;
+    background-color: #5b2d5f;
 }
 
 /* container - 2 */
@@ -379,6 +399,11 @@ input {
     color: #FFFFFF;
 }
 
+.updates-button:hover{
+    cursor: pointer;
+    background-color: #5b2d5f;
+}
+
 footer {
     width: 1,440vw;
     height: 220px;
@@ -405,6 +430,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.social-media a:hover{
+    background-color: #FFFFFFaa;
 }
 
 .copyright-terms {
